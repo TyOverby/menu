@@ -3,6 +3,10 @@ section {
     min-width: 400px;
 }
 
+h1 {
+    font-size: 1vw;
+}
+
 .image {
     width: 40vw;
     height: 40vw;
