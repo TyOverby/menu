@@ -2,7 +2,7 @@
 function make_recipe(name, recipe) {
   let ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
       if (name.startsWith("*") {
-          name = `<strong>${name.substr(1)}</strong>`
+          name = `<strong>${name.substr(1)}</strong>`;
       }
       return `<tr>
         <td> ${name} </td> 
