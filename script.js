@@ -78,9 +78,9 @@ var recipes = {
             "Simple Syrup": "1/3 oz",
             "Crème de Mûre": "1/2 oz"
         },
-        sweet: "90%",
-        alcohol: "80%",
-        sour: "0%",
+        sweet: "40%",
+        alcohol: "30%",
+        sour: "70%",
         bitter: "10%"
     }
 };
