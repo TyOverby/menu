@@ -39,7 +39,7 @@ function make_recipe(name, recipe) {
     `
 }
 
-let recipes = [
+let recipes = {
     "Gin & Tonic": {
         ingredients: {
             "Gin": "2oz",
@@ -62,7 +62,7 @@ let recipes = [
         sour: "0%",
         bitter: "10%"
     }
-];
+};
 
 document.body.innerHTML = 
     Object.getOwnPropertyNames(recipes)
