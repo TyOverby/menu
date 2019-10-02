@@ -49,6 +49,15 @@ let recipes = [
         alcohol: "50%",
         sour: "10%",
         bitter: "15%"
+    },
+    {
+        name: "Maple Syrup Old Fashioned",
+        ingredients: {
+            "Burbon": "2&frac14 oz",
+            "Rouge Vermouth": "1 oz",
+            "Maple Syrup": "&frac12 oz",
+            "Angostura Bitters": "1 dash",
+        }
     }
 ];
 
