@@ -44,13 +44,8 @@ td:nth-child(2) {
     background-color:blue;
 }
 
-.percentage {
+.percent-bar > div {
     height:3vw;
     background-color:rgba(255, 0, 0, 0.5);
 }
 
-.percent-bar::before{
-    content:attr(name);
-    float:left;
-    color:white;
-}
