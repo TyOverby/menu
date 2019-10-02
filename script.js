@@ -58,7 +58,10 @@ let recipes = [
             "Maple Syrup": "&frac12 oz",
             "Angostura Bitters": "1 dash"
         },
-        sweet: "95%"
+        sweet: "90%",
+        alcohol: "80%",
+        sour: "0%",
+        bitter: "10%"
     }
 ];
 
