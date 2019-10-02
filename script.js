@@ -5,19 +5,14 @@ function make_recipe(recipe) {
       <td> ${ingredient} </td> 
       <td> ${quantity} </td> 
       </tr>`
-  );
+  ).join("");
   return `
         <section>
             <h1> ${recipe.name} </h1>
             <div class="image"></div>
             <div class="ingredients">
                 <table> 
-                    <tr> 
-                        <td> <strong> Gin </strong> </td> <td> 2 oz </td>
-                    </tr>
-                    <tr> 
-                        <td> Tonic </td> <td> 6 oz </td>
-                    </tr>
+                  ${ingredients}
                 </table>
             </div>
             <div>
