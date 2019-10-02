@@ -8,6 +8,8 @@ function make_recipe(name, recipe) {
       var quantity = recipe.ingredients[name];
       quantity = quantity.replace(/oz/g, "<small>oz</small>");
       quantity = quantity.replace(/dash/g, "<small>dash</small>");
+      quantity = quantity.replace(/1\/2/g, "&frac12");
+      quantity = quantity.replace(/1\/4/g, "&frac14");
       return `<tr>
         <td> ${displayName} </td> 
         <td> ${quantity} </td> 
