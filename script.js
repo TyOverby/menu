@@ -5,6 +5,7 @@ function make_recipe(name, recipe) {
       if (name.startsWith("*")) {
           displayName = `<strong>${name.substr(1)}</strong>`;
       }
+      var quantity = recipe.ingredients[name];
       return `<tr>
         <td> ${displayName} </td> 
         <td> ${recipe.ingredients[name]} </td> 
@@ -43,7 +44,7 @@ function make_recipe(name, recipe) {
     `
 }
 
-let recipes = {
+var recipes = {
     "Gin & Tonic": {
         ingredients: {
             "*Gin": "2 <small>oz</small>",
