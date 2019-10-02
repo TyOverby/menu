@@ -32,6 +32,9 @@ h1 {
 table {
     width: 100%;
 }
+.ingredients {
+    min-height: 40vw;
+}
 
 td:nth-child(2) {
     text-align:right;
