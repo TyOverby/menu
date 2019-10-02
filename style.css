@@ -9,6 +9,7 @@ body {
     display:flex;
     justify-content: space-around;
     font-family: 'Noto Sans', sans-serif;
+    color:rgba(0, 0, 0, 0.75);
 }
 
 section {
