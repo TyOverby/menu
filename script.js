@@ -64,7 +64,10 @@ let recipes = [
     }
 ];
 
-document.body.innerHTML = recipes.map(make_recipe).join("");
+document.body.innerHTML = 
+    Object.getOwnPropertyNames(recipes)
+    .map(name => make_recipe(name, recipes[name]))
+    .join("");
 
 
 setTimeout(function () {
