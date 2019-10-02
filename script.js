@@ -2,8 +2,8 @@
 function make_recipe(recipe) {
   let ingredients = recipe.ingredients.map(function (o) {
       return `<tr>
-      <td> ${o.ingredient} </td> 
-      <td> ${o.quantity} </td> 
+        <td> ${o.ingredient} </td> 
+        <td> ${o.quantity} </td> 
       </tr>`
   ).join("");
   function percent(kind, value) {
