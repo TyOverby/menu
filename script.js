@@ -10,7 +10,7 @@ function make_recipe(name, recipe) {
       quantity = quantity.replace(/dash/g, "<small>dash</small>");
       return `<tr>
         <td> ${displayName} </td> 
-        <td> ${recipe.ingredients[name]} </td> 
+        <td> ${quantity} </td> 
       </tr>`
   }).join("");
 
