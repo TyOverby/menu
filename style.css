@@ -48,7 +48,7 @@ td:nth-child(2) {
     height: 4vw;
     position:relative;
     color:white;
-    margin-top:-4vw;
+    margin-bottom:-4vw;
 }
 
 .percent-bar > div {
