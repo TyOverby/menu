@@ -82,6 +82,17 @@ var recipes = {
         alcohol: "30%",
         sour: "70%",
         bitter: "10%"
+    },
+    "Boulevardier": {
+        ingredients: {
+            "*Rye Whiskey": "1 oz",
+            "*Campari": "1 oz",
+            "*Sweet Vermouth": "1 oz"
+        },
+        sweet: "60%",
+        alcohol: "70%",
+        sour: "0%",
+        bitter: "90%"
     }
 };
 
