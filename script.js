@@ -38,6 +38,20 @@ function make_recipe(recipe) {
     `
 }
 
+let recipes = [
+    {
+        name: "Gin & Tonic",
+        ingredients: {
+            "Gin": "2oz",
+            "Tonic": "6oz"
+        },
+        sweet: "20%",
+        alcohol: "50%",
+        sour: "10%",
+        bitter: "15%",
+    }
+]
+
 setTimeout(function () {
     window.location.reload(true)
 }, 1000);
