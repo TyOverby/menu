@@ -57,7 +57,8 @@ let recipes = [
             "Rouge Vermouth": "1 oz",
             "Maple Syrup": "&frac12 oz",
             "Angostura Bitters": "1 dash"
-        }
+        },
+        sweet: "95%"
     }
 ];
 
