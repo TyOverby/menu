@@ -1,11 +1,14 @@
 
 function make_recipe(recipe) {
-  let ingredients = recipe.ingredients.map(
-      {ingredient, quantity} => `<tr>
-      <td> ${ingredient} </td> 
-      <td> ${quantity} </td> 
+  let ingredients = recipe.ingredients.map(function (o) {
+      return `<tr>
+      <td> ${o.ingredient} </td> 
+      <td> ${o.quantity} </td> 
       </tr>`
   ).join("");
+  function percent(kind) {
+      return 
+  }
   return `
         <section>
             <h1> ${recipe.name} </h1>
