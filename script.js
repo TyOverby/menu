@@ -6,8 +6,14 @@ function make_recipe(recipe) {
       <td> ${o.quantity} </td> 
       </tr>`
   ).join("");
-  function percent(kind) {
-      return 
+  function percent(kind, value) {
+      return `<div class="percent-bar">
+        <span> ${kind} </span>
+        <div style="width:${value}">
+        <span> ${kind} </span>
+        </div>
+      </div>
+      `
   }
   return `
         <section>
