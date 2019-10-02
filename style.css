@@ -57,3 +57,9 @@ td:nth-child(2) {
     top: -3px;
     left: 3px;
 }
+
+.percent-bar::after{
+    width: attr (percent);
+    height:3vw;
+    background-color:rgba(255, 0, 0, 0.5);
+}
