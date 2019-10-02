@@ -76,7 +76,7 @@ var recipes = {
             "*Gin": "2 oz",
             "Lemon Juice": "1 oz",
             "Simple Syrup": "1/3 oz",
-            "Creme De Mure": "1/2 oz"
+            "Crème de Mûre": "1/2 oz"
         },
         sweet: "90%",
         alcohol: "80%",
