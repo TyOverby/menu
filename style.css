@@ -50,7 +50,7 @@ td:nth-child(2) {
 }
 
 .sweet::before{
-    content:"sweet";
+    content:attr(name)
     float:left;
     color:white;
     position:relative;
