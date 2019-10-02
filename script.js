@@ -47,7 +47,7 @@ let recipes = {
     "Gin & Tonic": {
         ingredients: {
             "*Gin": "2 <small>oz</small>",
-            "Tonic": "6<small>oz</small>"
+            "Tonic": "6 <small>oz</small>"
         },
         sweet: "20%",
         alcohol: "50%",
@@ -56,9 +56,9 @@ let recipes = {
     },
     "Maple Syrup Old Fashioned": {
         ingredients: {
-            "*Burbon": "2&frac14<small>oz</small>",
-            "*Rouge Vermouth": "1<small>oz</small>",
-            "Maple Syrup": "&frac12<small>oz</small>",
+            "*Burbon": "2&frac14 <small>oz</small>",
+            "*Rouge Vermouth": "1 <small>oz</small>",
+            "Maple Syrup": "&frac12 <small>oz</small>",
             "Angostura Bitters": "1<small>dash</small>"
         },
         sweet: "90%",
