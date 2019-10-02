@@ -46,7 +46,7 @@ function make_recipe(name, recipe) {
 let recipes = {
     "Gin & Tonic": {
         ingredients: {
-            "*Gin": "2<small>oz</small>",
+            "*Gin": "2 <small>oz</small>",
             "Tonic": "6<small>oz</small>"
         },
         sweet: "20%",
