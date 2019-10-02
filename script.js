@@ -50,8 +50,7 @@ let recipes = [
         sour: "10%",
         bitter: "15%"
     },
-    {
-        name: "Maple Syrup Old Fashioned",
+    "Maple Syrup Old Fashioned": {
         ingredients: {
             "Burbon": "2&frac14 oz",
             "Rouge Vermouth": "1 oz",
