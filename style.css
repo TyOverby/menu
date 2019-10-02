@@ -52,4 +52,5 @@ td:nth-child(2) {
 .sweet::before{
     content:"sweet";
     float:left;
+    color:white;
 }
