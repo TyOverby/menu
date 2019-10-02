@@ -1,5 +1,5 @@
 
-function make_recipe(recipe) {
+function make_recipe(name, recipe) {
   let ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
       return `<tr>
         <td> ${name} </td> 
@@ -25,7 +25,7 @@ function make_recipe(recipe) {
 
   return `
         <section>
-            <h1> ${recipe.name} </h1>
+            <h1> ${name} </h1>
             <div class="image"></div>
             <div class="ingredients">
                 <table> 
