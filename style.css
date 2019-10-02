@@ -1,5 +1,6 @@
 section {
     width: 40vw;
+    max-width: 400px;
     font-size: 3vw;
 }
 
@@ -16,7 +17,7 @@ h1 {
 }
 
 table {
-    width: 40vw;
+    width: 100%;
 }
 
 td:nth-child(2) {
