@@ -10,7 +10,7 @@ function make_recipe(recipe) {
       return `<div class="percent-bar">
         <span> ${kind} </span>
         <div style="width:${value}">
-        <span> ${kind} </span>
+          <span> ${kind} </span>
         </div>
       </div>
       `
