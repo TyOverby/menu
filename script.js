@@ -22,6 +22,7 @@ function make_recipe(recipe) {
       percent('sour', recipe.sour),
       percent('bitter', recipe.bitter),
   ].join("");
+
   return `
         <section>
             <h1> ${recipe.name} </h1>
