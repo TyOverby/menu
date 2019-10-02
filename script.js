@@ -49,7 +49,7 @@ function make_recipe(name, recipe) {
 var recipes = {
     "Gin & Tonic": {
         ingredients: {
-            "*Gin": "2 oz",
+            "*Gin": "2oz",
             "Tonic": "6 oz"
         },
         sweet: "20%",
