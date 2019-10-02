@@ -49,6 +49,6 @@ td:nth-child(2) {
     background-color:red;
 }
 
-.sweet::after{
+.sweet::before{
     content:"hi"
 }
