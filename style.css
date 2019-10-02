@@ -1,3 +1,7 @@
+body {
+    display:flex;
+}
+
 section {
     width: 40vw;
     max-width: 400px;
