@@ -49,8 +49,8 @@ function make_recipe(name, recipe) {
 var recipes = {
     "Gin & Tonic": {
         ingredients: {
-            "*Gin": "2 <small>oz</small>",
-            "Tonic": "6 <small>oz</small>"
+            "*Gin": "2 oz",
+            "Tonic": "6 oz"
         },
         sweet: "20%",
         alcohol: "50%",
@@ -59,10 +59,10 @@ var recipes = {
     },
     "Maple Syrup Old Fashioned": {
         ingredients: {
-            "*Burbon": "2&frac14 <small>oz</small>",
-            "*Rouge Vermouth": "1 <small>oz</small>",
-            "Maple Syrup": "&frac12 <small>oz</small>",
-            "Angostura Bitters": "1 <small>dash</small>"
+            "*Burbon": "2&frac14 oz",
+            "*Rouge Vermouth": "1 oz",
+            "Maple Syrup": "&frac12 oz",
+            "Angostura Bitters": "1 dash"
         },
         sweet: "90%",
         alcohol: "80%",
