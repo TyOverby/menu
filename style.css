@@ -38,3 +38,8 @@ td:nth-child(2) {
     color: rgba(0, 0, 0, 0.3);
 }
 
+.percent-bar {
+    width:100%;
+    height:3vw;
+    background-color:blue;
+}
