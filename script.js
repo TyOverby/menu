@@ -1,8 +1,14 @@
 
 function make_recipe(recipe) {
+  let ingredients = recipe.ingredients.map(
+      {ingredient, quantity} => `<tr>
+      <td> ${ingredient} </td> 
+      <td> ${quantity} </td> 
+      </tr>`
+  )
   return `
         <section>
-            <h1> Gin and Tonic </h1>
+            <h1> ${recipe.name} </h1>
             <div class="image"></div>
             <div class="ingredients">
                 <table> 
