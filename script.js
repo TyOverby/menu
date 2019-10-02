@@ -71,7 +71,7 @@ var recipes = {
         sour: "0%",
         bitter: "10%"
     },
-    "Maple Syrup Old Fashioned": {
+    ".Maple Syrup Old Fashioned": {
         ingredients: {
             "*Burbon": "2 1/4  oz",
             "*Rouge Vermouth": "1 oz",
