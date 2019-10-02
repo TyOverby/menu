@@ -45,6 +45,7 @@ td:nth-child(2) {
 }
 
 .percent-bar > span {
+    padding-left:3px;
     height: 4vw;
     margin-bottom:-4vw;
     position:relative;
