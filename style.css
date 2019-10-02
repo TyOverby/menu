@@ -50,6 +50,6 @@ td:nth-child(2) {
 }
 
 .sweet::before{
-    content:"hi"
-    display:block;
+    content:"sweet";
+    float:left;
 }
