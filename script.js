@@ -17,8 +17,11 @@ function make_recipe(recipe) {
       `
   }
   var percentages = [
-      percent('sweet', 
-  ]
+      percent('sweet', recipe.sweet),
+      percent('alcohol', recipe.alcohol),
+      percent('sour', recipe.sour),
+      percent('bitter', recipe.bitter),
+  ].join("");
   return `
         <section>
             <h1> ${recipe.name} </h1>
@@ -29,30 +32,7 @@ function make_recipe(recipe) {
                 </table>
             </div>
             <div>
-                <div class="percent-bar">
-                    <span> sweet </span>
-                    <div style="width:20%">
-                        <span> sweet </span>
-                    </div>
-                </div>
-                <div class="percent-bar">
-                    <span> alcohol </span>
-                    <div style="width:50%">
-                        <span> alcohol </span>
-                    </div>
-                </div>
-                <div class="percent-bar">
-                    <span> sour </span>
-                    <div style="width:10%">
-                        <span> sour </span>
-                    </div>
-                </div>
-                <div class="percent-bar">
-                    <span> bitter </span>
-                    <div style="width:15%">
-                        <span> bitter </span>
-                    </div>
-                </div>
+              ${percentages}
             </div>
         </section>
     `
