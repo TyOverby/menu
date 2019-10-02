@@ -33,7 +33,7 @@ table {
     width: 100%;
 }
 .ingredients {
-    min-height: 40vw;
+    min-height: 20vw;
 }
 
 td:nth-child(2) {
