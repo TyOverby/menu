@@ -5,7 +5,7 @@ function make_recipe(recipe) {
       <td> ${ingredient} </td> 
       <td> ${quantity} </td> 
       </tr>`
-  )
+  );
   return `
         <section>
             <h1> ${recipe.name} </h1>
