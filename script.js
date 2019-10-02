@@ -56,10 +56,10 @@ let recipes = {
     },
     "Maple Syrup Old Fashioned": {
         ingredients: {
-            "*Burbon": "2&frac14 oz",
-            "*Rouge Vermouth": "1 oz",
-            "Maple Syrup": "&frac12 oz",
-            "Angostura Bitters": "1 dash"
+            "*Burbon": "2&frac14<small>oz</small>",
+            "*Rouge Vermouth": "1<small>oz</small>",
+            "Maple Syrup": "&frac12<small>oz</small>",
+            "Angostura Bitters": "1<small>dash</small>"
         },
         sweet: "90%",
         alcohol: "80%",
