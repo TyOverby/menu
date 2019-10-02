@@ -48,9 +48,12 @@ let recipes = [
         sweet: "20%",
         alcohol: "50%",
         sour: "10%",
-        bitter: "15%",
+        bitter: "15%"
     }
-]
+];
+
+document.body.innerHTML = recipes.map(make_recipe).join("")
+
 
 setTimeout(function () {
     window.location.reload(true)
