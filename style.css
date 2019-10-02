@@ -43,3 +43,8 @@ td:nth-child(2) {
     height:3vw;
     background-color:blue;
 }
+
+.percentage {
+    height:3vw;
+    background-color:red;
+}
