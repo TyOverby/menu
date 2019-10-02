@@ -56,6 +56,6 @@ td:nth-child(2) {
 }
 
 .percent-bar > div > span {
-    position:absolute;
+    position:relative;
     color: green;
 }
