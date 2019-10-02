@@ -1,11 +1,12 @@
 
 function make_recipe(recipe) {
-  let ingredients = recipe.ingredients.map(function (o) {
+  let ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
       return `<tr>
-        <td> ${o.ingredient} </td> 
-        <td> ${o.quantity} </td> 
+        <td> ${name} </td> 
+        <td> ${recipe.ingredients[name]} </td> 
       </tr>`
   ).join("");
+
   function percent(kind, value) {
       return `<div class="percent-bar">
         <span> ${kind} </span>
@@ -15,6 +16,9 @@ function make_recipe(recipe) {
       </div>
       `
   }
+  var percentages = [
+      percent('sweet', 
+  ]
   return `
         <section>
             <h1> ${recipe.name} </h1>
