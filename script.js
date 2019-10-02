@@ -56,7 +56,7 @@ let recipes = [
             "Burbon": "2&frac14 oz",
             "Rouge Vermouth": "1 oz",
             "Maple Syrup": "&frac12 oz",
-            "Angostura Bitters": "1 dash",
+            "Angostura Bitters": "1 dash"
         }
     }
 ];
