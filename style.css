@@ -57,7 +57,7 @@ td:nth-child(2) {
 
 .percent-bar > div {
     height:4vw;
-    background-color:rgba(0, 0, 0, 0.45);
+    background-color:rgba(0, 0, 0, 0.75);
     overflow:hidden;
 }
 
