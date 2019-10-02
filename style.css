@@ -50,7 +50,7 @@ td:nth-child(2) {
 }
 
 .percentage::before{
-    content:attr(name)
+    content: attr(name);
     float:left;
     color:white;
     position:relative;
