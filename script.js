@@ -40,8 +40,7 @@ function make_recipe(name, recipe) {
 }
 
 let recipes = [
-    {
-        name: "Gin & Tonic",
+    "Gin & Tonic": {
         ingredients: {
             "Gin": "2oz",
             "Tonic": "6oz"
