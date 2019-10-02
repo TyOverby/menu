@@ -64,5 +64,5 @@ td:nth-child(2) {
 .percent-bar > div > span {
     padding-left:1vw;
     position:relative;
-    color: green;
+    color: white;
 }
