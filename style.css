@@ -54,4 +54,5 @@ td:nth-child(2) {
     float:left;
     color:white;
     position:relative;
+    top: -3px;
 }
