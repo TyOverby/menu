@@ -59,7 +59,7 @@ let recipes = {
             "*Burbon": "2&frac14 <small>oz</small>",
             "*Rouge Vermouth": "1 <small>oz</small>",
             "Maple Syrup": "&frac12 <small>oz</small>",
-            "Angostura Bitters": "1<small>dash</small>"
+            "Angostura Bitters": "1 <small>dash</small>"
         },
         sweet: "90%",
         alcohol: "80%",
