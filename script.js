@@ -70,6 +70,18 @@ var recipes = {
         alcohol: "80%",
         sour: "0%",
         bitter: "10%"
+    },
+    "Maple Syrup Old Fashioned": {
+        ingredients: {
+            "*Burbon": "2 1/4  oz",
+            "*Rouge Vermouth": "1 oz",
+            "Maple Syrup": "1/2 oz",
+            "Angostura Bitters": "1 dash"
+        },
+        sweet: "90%",
+        alcohol: "80%",
+        sour: "0%",
+        bitter: "10%"
     }
 };
 
