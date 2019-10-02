@@ -38,6 +38,7 @@ table {
 }
 .ingredients {
     min-height: 7em;
+    margin-bottom: 1vw;
 }
 
 td:nth-child(2) {
