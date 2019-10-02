@@ -82,7 +82,7 @@ var recipes = {
         alcohol: "80%",
         sour: "0%",
         bitter: "10%"
-    },
+    }
 };
 
 document.body.innerHTML = 
