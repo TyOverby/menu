@@ -6,6 +6,8 @@ function make_recipe(name, recipe) {
           displayName = `<strong>${name.substr(1)}</strong>`;
       }
       var quantity = recipe.ingredients[name];
+      quantity = quantity.replace(/oz/g, "<small>oz</small>");
+      quantity = quantity.replace(/dash/g, "<small>dash</small>");
       return `<tr>
         <td> ${displayName} </td> 
         <td> ${recipe.ingredients[name]} </td> 
