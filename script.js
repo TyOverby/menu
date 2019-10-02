@@ -75,5 +75,5 @@ document.body.innerHTML =
 
 
 setTimeout(function () {
-    window.location.reload(true)
+    window.location.reload()
 }, 1000);
