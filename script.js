@@ -71,12 +71,12 @@ var recipes = {
         sour: "0%",
         bitter: "10%"
     },
-    "#Maple Syrup Old Fashioned": {
+    "Bramble": {
         ingredients: {
-            "*Burbon": "2 1/4  oz",
-            "*Rouge Vermouth": "1 oz",
-            "Maple Syrup": "1/2 oz",
-            "Angostura Bitters": "1 dash"
+            "*Gin": "2 oz",
+            "Lemon Juice": "1 oz",
+            "Simple Syrup": "1/3 oz",
+            "Creme De Mure": "1/2 oz"
         },
         sweet: "90%",
         alcohol: "80%",
