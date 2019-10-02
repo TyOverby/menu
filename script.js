@@ -52,7 +52,7 @@ let recipes = [
     }
 ];
 
-document.body.innerHTML = recipes.map(make_recipe).join("")
+document.body.innerHTML = recipes.map(make_recipe).join("");
 
 
 setTimeout(function () {
