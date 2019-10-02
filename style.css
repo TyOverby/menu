@@ -52,7 +52,7 @@ td:nth-child(2) {
     margin-bottom:-4vw;
     position:relative;
     display:block;
-    color:white;
+    color:rgba(0, 0, 0, 0.45);
 }
 
 .percent-bar > div {
