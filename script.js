@@ -5,7 +5,7 @@ function make_recipe(recipe) {
         <td> ${name} </td> 
         <td> ${recipe.ingredients[name]} </td> 
       </tr>`
-  ).join("");
+  }).join("");
 
   function percent(kind, value) {
       return `<div class="percent-bar">
