@@ -132,7 +132,10 @@ var categories = {
 };
 
 document.body.innerHTML = 
-    make_section("Seasonal", recipes);
+
+        Object.getOwnPropertyNames(recipes)
+        .map(name => make_section(name, categories[name]))
+        .join("");
 
 setTimeout(function () {
     window.location.reload(true)
