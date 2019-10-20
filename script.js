@@ -195,7 +195,7 @@ var whiskeys = {
         "Aberlour A'Bunadh",
     ],
     "Japanese": [
-        "Nikka Coffeey Malt", 
+        "Nikka Coffey Malt", 
         "Nikka Coffey Grain",
         "Nikka From the Barrel",
     ], 
