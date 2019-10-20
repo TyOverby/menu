@@ -228,8 +228,7 @@ document.body.innerHTML +=
     .map(name => make_section(name, categories[name]))
     .join("");
 
-document.body.innerHTML +=
-    Object.getOwnPropertyNames(spirits
+document.body.innerHTML += makeSpirits(spirits);
 
 setTimeout(function () {
     window.location.reload(true)
