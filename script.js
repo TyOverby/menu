@@ -6,7 +6,7 @@ function make_section(name, recipes) {
     return `<article>
       <h1>${name}</h1>
       ${contents}
-    </article> `
+    </article>`
 }
 
 function make_recipe(name, recipe) {
