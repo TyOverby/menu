@@ -132,9 +132,9 @@ var categories = {
 };
 
 document.body.innerHTML = 
-        Object.getOwnPropertyNames(categories)
-        .map(name => make_section(name, categories[name]))
-        .join("");
+    Object.getOwnPropertyNames(categories)
+    .map(name => make_section(name, categories[name]))
+    .join("");
 
 setTimeout(function () {
     window.location.reload(true)
