@@ -182,7 +182,7 @@ var categories = {
     }
 };
 
-var whiskeys = {
+var spirits = {
     "Rye": [
         "Rittenhouse", 
         "Bulleit", 
