@@ -60,7 +60,8 @@ function make_recipe(name, recipe) {
     `
 }
 
-var recipes = {
+var categories = {
+    "Seasonal": {
     "Gin & Tonic": {
         ingredients: {
             "*Gin": "2 oz",
