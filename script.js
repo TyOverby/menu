@@ -13,14 +13,13 @@ function make_section(name, recipes) {
 function make_spirits(kinds) {
     var contents = 
         Object.getOwnPropertyNames(kinds)
-        .map(name => 
+        .map(name =>  {
             let all = kinds[name].map(i => `<div>${i}</div>`).join('');
-            `<section>
+            return `<section>
             <div><strong>${name}</strong></div>
             ${all}
-            </section>
-            `
-            make_recipe(name, recipes[name]))
+            </section>`
+        })
         .join("");
 
     return `<article>
