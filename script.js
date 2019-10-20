@@ -34,7 +34,7 @@ function make_recipe(name, recipe) {
   ].join("");
 
   return `
-        <section>
+        <details>
             <h1> ${name} </h1>
             <div class="image"></div>
             <div class="ingredients">
@@ -45,7 +45,7 @@ function make_recipe(name, recipe) {
             <div>
               ${percentages}
             </div>
-        </section>
+        </details>
     `
 }
 
