@@ -130,9 +130,7 @@ var recipes = {
 };
 
 document.body.innerHTML = 
-    Object.getOwnPropertyNames(recipes)
-    .map(name => make_recipe(name, recipes[name]))
-    .join("");
+    make_section("Seasonal", recipes);
 
 
 setTimeout(function () {
