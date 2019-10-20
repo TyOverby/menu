@@ -132,8 +132,7 @@ var categories = {
 };
 
 document.body.innerHTML = 
-
-        Object.getOwnPropertyNames(recipes)
+        Object.getOwnPropertyNames(categories)
         .map(name => make_section(name, categories[name]))
         .join("");
 
