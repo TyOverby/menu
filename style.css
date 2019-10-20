@@ -24,9 +24,8 @@ h1 {
     flex-basis:100%;
     text-align:center;
     font-size: 5vw;
-    min-height: 12vw;
     font-family: 'Noto Serif', serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 h2 {
