@@ -111,6 +111,18 @@ var categories = {
         } 
     },
     "Standards": {
+        "Whiskey Sour": {
+            ingredients: {
+                "*Whiskey": "1 3/4 oz",
+                "Lemon Juice": "1 oz",
+                "Gomme Syrup": "1/2 oz",
+                "Egg White": "",
+            },
+            sweet: "50%",
+            alcohol: "50%",
+            sour: "50%",
+            bitter: "10%",
+        },
         "Gin & Tonic": {
             ingredients: {
                 "*Gin": "2 oz",
