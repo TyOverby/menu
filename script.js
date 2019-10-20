@@ -182,6 +182,28 @@ var categories = {
     }
 };
 
+var whiskeys = {
+    "Rye": [
+        "Rittenhouse", 
+        "Bulleit", 
+        "Whistlepig",
+    ],
+    "Scotch": [
+        "Monkey Shoulder", 
+        "Laphroig 10 yr", 
+        "Aberlour 12 yr", 
+        "Aberlour A'Bunadh",
+    ],
+    "Japanese": [
+        "Nikka Coffeey Malt", 
+        "Nikka Coffey Grain",
+        "Nikka From the Barrel",
+    ], 
+    "Bourbon": [
+        "Buffalo Trace"
+    ]
+}
+
 document.body.innerHTML = 
     Object.getOwnPropertyNames(categories)
     .map(name => make_section(name, categories[name]))
