@@ -120,7 +120,8 @@ var categories = {
             alcohol: "50%",
             sour: "10%",
             bitter: "15%",
-        }, "Margarita": {
+        }, 
+        "Margarita": {
             ingredients: {
                 "*Tequila": "2 oz",
                 "*Cointreau": "1 oz",
