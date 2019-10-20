@@ -128,6 +128,7 @@ var categories = {
         sour: "75%",
         bitter: "0%",
     }
+    }
 };
 
 document.body.innerHTML = 
