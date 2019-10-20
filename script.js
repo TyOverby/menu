@@ -171,9 +171,13 @@ var categories = {
             ingredients: {
                 "*Gin": "1 1/2 oz",
                 "*Maraschino Liqueur": "1/2 oz",
-                "*Crème de Mûre": "1/2 oz",
-
-            }
+                "*Crème de Violette": "1/4 oz",
+                "Lemon Juice": "1/2 oz",
+            },
+            sweet: "80%",
+            alcohol: "70%",
+            sour: "75%",
+            bitter: "25%",
         }
     }
 };
