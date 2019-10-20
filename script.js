@@ -96,7 +96,8 @@ var categories = {
             alcohol: "70%",
             sour: "0%",
             bitter: "90%",
-        }, "Pain Killer": {
+        },
+        "Pain Killer": {
             ingredients: {
                 "*Dark Rum": "2 oz",
                 "Pineapple Juice": "4 oz",
