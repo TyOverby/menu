@@ -46,7 +46,7 @@ function make_recipe(name, recipe) {
 
   return `
         <section>
-            <h1> ${name} </h1>
+            <h2> ${name} </h2>
             <div class="image"></div>
             <div class="ingredients">
                 <table> 
