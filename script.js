@@ -16,7 +16,7 @@ function make_spirits(kinds) {
         .map(name =>  {
             let all = kinds[name].map(i => `<div>${i}</div>`).join('');
             return `<section>
-            <div><strong>${name}</strong></div>
+            <div><h3>${name}</h3></div>
             ${all}
             </section>`
         })
