@@ -1,4 +1,15 @@
 
+function make_section(name, recipes) {
+    var contents = Object.getOwnPropertyNames(recipes)
+    .map(name => make_recipe(name, recipes[name]))
+    .join("");
+    return `<article>
+      <h1>${name}</h1>
+      ${contents}
+    </article>
+    `
+}
+
 function make_recipe(name, recipe) {
   var ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
       var displayName = name;
