@@ -123,6 +123,14 @@ var categories = {
             sour: "50%",
             bitter: "10%",
         },
+        "Sazerac": {
+            ingredients: {
+                "*Cognac": "1 3/4 oz",
+                "*Absinthe": "1 dash',
+                "Gomme Syrup": "1/2 oz",
+                "Peychaud's Bitters": "2 dashes",
+            },
+        },
         "Gin & Tonic": {
             ingredients: {
                 "*Gin": "2 oz",
