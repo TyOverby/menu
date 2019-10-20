@@ -228,7 +228,7 @@ document.body.innerHTML +=
     .map(name => make_section(name, categories[name]))
     .join("");
 
-document.body.innerHTML += makeSpirits(spirits);
+document.body.innerHTML += make_spirits(spirits);
 
 setTimeout(function () {
     window.location.reload(true)
