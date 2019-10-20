@@ -100,7 +100,11 @@ var recipes = {
             "Pineapple Juice": "4 oz",
             "Cream of Coconut": "1 oz",
             "Orange Juice": "1 oz",
-        }
+        },
+        sweet: "70%",
+        alcohol: "30%",
+        sour: "50%",
+        bitter: "0%",
     }
 };
 
