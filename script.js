@@ -107,17 +107,7 @@ var categories = {
             alcohol: "30%",
             sour: "50%",
             bitter: "0%",
-        }, "Margarita": {
-            ingredients: {
-                "*Tequila": "2 oz",
-                "*Cointreau": "1 oz",
-                "Lime Juice": "3/4 oz"
-            },
-            sweet: "70%",
-            alcohol: "80%",
-            sour: "75%",
-            bitter: "0%",
-        }
+        } 
     },
     "Classic": {
         "Gin & Tonic": {
