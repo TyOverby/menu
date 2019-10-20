@@ -130,6 +130,10 @@ var categories = {
                 "Gomme Syrup": "1/2 oz",
                 "Peychaud's Bitters": "2 dashes",
             },
+            sweet: "25%",
+            alcohol: "60%",
+            sour: "0%",
+            bitter: "10%"
         },
         "Gin & Tonic": {
             ingredients: {
