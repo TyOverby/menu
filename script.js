@@ -10,6 +10,25 @@ function make_section(name, recipes) {
     </article>`
 }
 
+function make_spirits(kinds) {
+    var contents = 
+        Object.getOwnPropertyNames(kinds)
+        .map(name => 
+            let all = kinds[name].map(i => `<div>${i}</div>`).join('');
+            `<section>
+            <div><strong>${name}</strong></div>
+            ${all}
+            </section>
+            `
+            make_recipe(name, recipes[name]))
+        .join("");
+
+    return `<article>
+      <h1> Neat </h1>
+      ${contents}
+    </article>`
+}
+
 function make_recipe(name, recipe) {
     var ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
         var displayName = name;
@@ -209,6 +228,9 @@ document.body.innerHTML +=
     Object.getOwnPropertyNames(categories)
     .map(name => make_section(name, categories[name]))
     .join("");
+
+document.body.innerHTML +=
+    Object.getOwnPropertyNames(spirits
 
 setTimeout(function () {
     window.location.reload(true)
