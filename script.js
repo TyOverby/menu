@@ -204,7 +204,8 @@ var spirits = {
     ]
 }
 
-document.body.innerHTML = 
+document.body.innerHTML = ""
+document.body.innerHTML += 
     Object.getOwnPropertyNames(categories)
     .map(name => make_section(name, categories[name]))
     .join("");
