@@ -4,7 +4,7 @@ html, body {
     padding:0;
 }
 
-body, section {
+body, article {
     width:100%;
     display:flex;
     flex-wrap:wrap;
@@ -14,7 +14,7 @@ body, section {
     color:rgba(0, 0, 0, 0.75);
 }
 
-details {
+section {
     width: 40vw;
     max-width: 400px;
     font-size: 2vw;
