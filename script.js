@@ -133,7 +133,7 @@ var categories = {
             sweet: "25%",
             alcohol: "60%",
             sour: "0%",
-            bitter: "10%"
+            bitter: "10%",
         },
         "Gin & Tonic": {
             ingredients: {
