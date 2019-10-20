@@ -53,47 +53,54 @@ var recipes = {
     "Gin & Tonic": {
         ingredients: {
             "*Gin": "2 oz",
-            "Tonic": "6 oz"
+            "Tonic": "6 oz",
         },
         sweet: "20%",
         alcohol: "50%",
         sour: "10%",
-        bitter: "15%"
+        bitter: "15%",
     },
     "Maple Syrup Old Fashioned": {
         ingredients: {
             "*Burbon": "2 1/4  oz",
             "*Rouge Vermouth": "1 oz",
             "Maple Syrup": "1/2 oz",
-            "Angostura Bitters": "1 dash"
+            "Angostura Bitters": "1 dash",
         },
         sweet: "90%",
         alcohol: "80%",
         sour: "0%",
-        bitter: "10%"
+        bitter: "10%",
     },
     "Bramble": {
         ingredients: {
             "*Gin": "2 oz",
             "Lemon Juice": "1 oz",
             "Simple Syrup": "1/3 oz",
-            "Crème de Mûre": "1/2 oz"
+            "Crème de Mûre": "1/2 oz",
         },
         sweet: "40%",
         alcohol: "30%",
         sour: "70%",
-        bitter: "10%"
+        bitter: "10%",
     },
     "Boulevardier": {
         ingredients: {
             "*Rye Whiskey": "1 oz",
             "*Campari": "1 oz",
-            "*Sweet Vermouth": "1 oz"
+            "*Sweet Vermouth": "1 oz",
         },
         sweet: "60%",
         alcohol: "70%",
         sour: "0%",
-        bitter: "90%"
+        bitter: "90%",
+    }, "Pain Killer": {
+        ingredients: {
+            "*Dark Rum": "2 oz",
+            "Pineapple Juice": "4 oz",
+            "Cream of Coconut": "1 oz",
+            "Orange Juice": "1 oz",
+        }
     }
 };
 
