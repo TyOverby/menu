@@ -105,6 +105,11 @@ var recipes = {
         alcohol: "30%",
         sour: "50%",
         bitter: "0%",
+    }, "Margarita": {
+        ingredients: {
+            "*Tequila": "2 oz",
+            "*Cointreau": "1 oz",
+            "Lime Juice": "3/4 oz"
     }
 };
 
