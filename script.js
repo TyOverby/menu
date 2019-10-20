@@ -110,6 +110,7 @@ var recipes = {
             "*Tequila": "2 oz",
             "*Cointreau": "1 oz",
             "Lime Juice": "3/4 oz"
+        }
     }
 };
 
