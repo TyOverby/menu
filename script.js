@@ -126,7 +126,7 @@ var categories = {
         "Sazerac": {
             ingredients: {
                 "*Cognac": "1 3/4 oz",
-                "*Absinthe": "1 dash',
+                "*Absinthe": "1 dash",
                 "Gomme Syrup": "1/2 oz",
                 "Peychaud's Bitters": "2 dashes",
             },
