@@ -158,7 +158,7 @@ var categories = {
         },
         "Mezcal Margarita": {
             ingredients: {
-                "*Mezcal": "1.5 oz",
+                "*Mezcal": "1 1/2 oz",
                 "*Cointreau": "1 oz",
                 "Lime Juice": "1/4 oz"
             },
