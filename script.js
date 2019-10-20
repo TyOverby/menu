@@ -132,7 +132,6 @@ var recipes = {
 document.body.innerHTML = 
     make_section("Seasonal", recipes);
 
-
 setTimeout(function () {
     window.location.reload(true)
 }, 1000);
