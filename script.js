@@ -77,9 +77,9 @@ var categories = {
         "Bramble": {
             ingredients: {
                 "*Gin": "2 oz",
+                "*Crème de Mûre": "1/2 oz",
                 "Lemon Juice": "1 oz",
                 "Simple Syrup": "1/3 oz",
-                "Crème de Mûre": "1/2 oz",
             },
             sweet: "40%",
             alcohol: "30%",
@@ -166,6 +166,14 @@ var categories = {
             alcohol: "80%",
             sour: "75%",
             bitter: "0%",
+        },
+        "Aviation": {
+            ingredients: {
+                "*Gin": "1 1/2 oz",
+                "*Maraschino Liqueur": "1/2 oz",
+                "*Crème de Mûre": "1/2 oz",
+
+            }
         }
     }
 };
