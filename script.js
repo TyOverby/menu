@@ -231,5 +231,5 @@ document.body.innerHTML +=
 document.body.innerHTML += make_spirits(spirits);
 
 setTimeout(function () {
-    window.location.reload(true)
+    //window.location.reload(true)
 }, 1000);
