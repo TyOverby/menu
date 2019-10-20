@@ -2,8 +2,8 @@
 function make_section(name, recipes) {
     var contents = 
         Object.getOwnPropertyNames(recipes)
-              .map(name => make_recipe(name, recipes[name]))
-              .join("");
+        .map(name => make_recipe(name, recipes[name]))
+        .join("");
     return `<article>
       <h1>${name}</h1>
       ${contents}
@@ -11,40 +11,40 @@ function make_section(name, recipes) {
 }
 
 function make_recipe(name, recipe) {
-  var ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
-      var displayName = name;
-      if (name.startsWith("*")) {
-          displayName = `<strong>${name.substr(1)}</strong>`;
-      }
-      var quantity = recipe.ingredients[name];
-      quantity = quantity.replace(/oz/g, "<small>oz</small>");
-      quantity = quantity.replace(/dash/g, "<small>dash</small>");
-      quantity = quantity.replace(/1\/2/g, "&frac12");
-      quantity = quantity.replace(/1\/3/g, "&#8531");
-      quantity = quantity.replace(/1\/4/g, "&frac14");
-      return `<tr>
+    var ingredients = Object.getOwnPropertyNames(recipe.ingredients).map(function (name) {
+        var displayName = name;
+        if (name.startsWith("*")) {
+            displayName = `<strong>${name.substr(1)}</strong>`;
+        }
+        var quantity = recipe.ingredients[name];
+        quantity = quantity.replace(/oz/g, "<small>oz</small>");
+        quantity = quantity.replace(/dash/g, "<small>dash</small>");
+        quantity = quantity.replace(/1\/2/g, "&frac12");
+        quantity = quantity.replace(/1\/3/g, "&#8531");
+        quantity = quantity.replace(/1\/4/g, "&frac14");
+        return `<tr>
         <td> ${displayName} </td> 
         <td> ${quantity} </td> 
       </tr>`
-  }).join("");
+    }).join("");
 
-  function percent(kind, value) {
-      return `<div class="percent-bar">
+    function percent(kind, value) {
+        return `<div class="percent-bar">
         <span> ${kind} </span>
         <div style="width:${value}">
           <span> ${kind} </span>
         </div>
       </div>
       `
-  }
-  var percentages = [
-      percent('sweet', recipe.sweet),
-      percent('alcohol', recipe.alcohol),
-      percent('sour', recipe.sour),
-      percent('bitter', recipe.bitter),
-  ].join("");
+    }
+    var percentages = [
+        percent('sweet', recipe.sweet),
+        percent('alcohol', recipe.alcohol),
+        percent('sour', recipe.sour),
+        percent('bitter', recipe.bitter),
+    ].join("");
 
-  return `
+    return `
         <section>
             <h2> ${name} </h2>
             <div class="image"></div>
