@@ -155,6 +155,17 @@ var categories = {
             alcohol: "80%",
             sour: "75%",
             bitter: "0%",
+        },
+        "Mezcal Margarita": {
+            ingredients: {
+                "*Tequila": "2 oz",
+                "*Cointreau": "1 oz",
+                "Lime Juice": "3/4 oz"
+            },
+            sweet: "70%",
+            alcohol: "80%",
+            sour: "75%",
+            bitter: "0%",
         }
     }
 };
