@@ -110,7 +110,7 @@ var categories = {
             bitter: "0%",
         } 
     },
-    "Classic": {
+    "Standards": {
         "Gin & Tonic": {
             ingredients: {
                 "*Gin": "2 oz",
